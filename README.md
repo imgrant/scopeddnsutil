@@ -175,7 +175,7 @@ The reverse lookup zones and CIDR processing is particularly suspect; it handles
 
 ## Acknowledgements
 
-The Nix derivation and flake were copied from [Samasaur1/nix-swift-hello](https://github.com/Samasaur1/nix-swift-hello/).
+The Swift build elements of the Nix derivation and flake were taken from [Samasaur1/nix-swift-hello](https://github.com/Samasaur1/nix-swift-hello/).
 
 ## License
 
