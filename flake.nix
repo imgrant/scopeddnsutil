@@ -7,7 +7,7 @@
   inputs = {
     flake-schemas.url = "https://flakehub.com/f/DeterminateSystems/flake-schemas/*";
 
-    nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.2411.*";
+    nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.2511.*";
   };
 
   # Flake outputs that other flakes can use

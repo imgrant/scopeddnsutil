@@ -38,7 +38,7 @@ Include it in your outputs section, and pass it to, eg `environment.systemPackag
       modules = [
         {
           environment.systemPackages = [
-            scopeddnsutil.packages.${pkgs.system}.default
+            scopeddnsutil.packages.${pkgs.stdenv.hostPlatform.system}.default
           ];
         }
       ];
